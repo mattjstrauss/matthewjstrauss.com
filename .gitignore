@@ -1,6 +1,6 @@
 # ignore everything in the root except the "wp-content" directory.
-*wp-*.php
-xmlrpc.php
+wordpress/app/public/wp-*.php
+wordpress/app/public/xmlrpc.php
 index.php
 license.txt
 !wp-content/
@@ -11,19 +11,19 @@ logs
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
-*wp-content/*
-*wp-admin/*
+wordpress/app/public/wp-content/*
+wordpress/app/public/wp-admin/*
 wordpress/app/public/wp-includes/*
-!*wp-content/mu-plugins/
-!*wp-content/plugins/
-!*wp-content/themes/
-!*wp-content/uploads/
+!wordpress/app/public/wp-content/mu-plugins/
+!wordpress/app/public/wp-content/plugins/
+!wordpress/app/public/wp-content/themes/
+!wordpress/app/public/wp-content/uploads/
 
 # ignore these plugins
-*wp-content/plugins/hello.php
+wordpress/app/public/wp-content/plugins/hello.php
 
 # ignore specific themes
-*wp-content/themes/twenty*/
+wordpress/app/public/wp-content/themes/twenty*/
 
 # ignore wordpress core
 
