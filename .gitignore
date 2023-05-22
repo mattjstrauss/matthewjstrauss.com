@@ -13,7 +13,7 @@ logs
 # "mu-plugins", "plugins", "themes" directory
 *wp-content/*
 *wp-admin/*
-*wp-includes/*
+wordpress/app/public/wp-includes/*
 !*wp-content/mu-plugins/
 !*wp-content/plugins/
 !*wp-content/themes/
