@@ -17,7 +17,6 @@ wordpress/app/public/wp-includes/*
 !wordpress/app/public/wp-content/mu-plugins/
 !wordpress/app/public/wp-content/plugins/
 !wordpress/app/public/wp-content/themes/
-!wordpress/app/public/wp-content/uploads/
 
 # ignore these plugins
 wordpress/app/public/wp-content/plugins/hello.php
